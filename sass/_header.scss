@@ -1,0 +1,15 @@
+.botones {
+    a {
+        font-family: $family-gral;
+        margin-left: 5px;
+        background-color: $fondo-boton;
+        border-radius: $br;
+        text-transform: $upper;
+        font-size: 14px;
+        font-weight: $bold;
+        color: $color-nav;
+        &:hover {
+            background-color: $color-destacado;
+        }
+    }
+}

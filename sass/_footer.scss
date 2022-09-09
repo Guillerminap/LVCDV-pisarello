@@ -1,0 +1,17 @@
+ul {
+    li {
+        font-size: 12px;
+        a {
+            background-color: $fondo-boton;
+            border-radius: $br;
+            margin-left: 3px;
+            color: $color-nav !important;
+            text-transform: $upper;
+            &:hover{
+                background-color: $color-destacado;
+            }
+        }
+        
+    }
+    
+}

@@ -1,0 +1,15 @@
+.gal-wrapper {
+    overflow: hidden;
+}
+.zoom {
+    width: 100%;
+    opacity: 1;
+    transition-duration: 250ms;
+    &:hover {
+        transform: scale(1.5);
+    }
+}
+
+.b-none {
+    border: none !important;
+}

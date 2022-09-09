@@ -1,0 +1,22 @@
+.logo {
+    width:250px;
+}
+
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+body {
+  padding-top: 25px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: $family-titulo;
+    font-style: $typoestilo;
+}
+
+p {
+    font-family: $family-gral;
+}
+
